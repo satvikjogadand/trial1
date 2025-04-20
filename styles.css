@@ -1,0 +1,37 @@
+/* Customize these colors! */
+:root {
+  --primary: #FF3E00; /* Change to your color */
+  --background: #FFFFFF;
+  --text: #000000;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.hero {
+  min-height: 60vh;
+  padding: 2rem;
+}
+
+.work {
+  padding: 2rem;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+/* Add animations & responsiveness as needed */
